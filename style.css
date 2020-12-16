@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #23000A;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.bouton {
+    display: inline-block;
+    font-size: 4rem;
+    margin-top: 3rem;
+    background: linear-gradient(#59070E, #FF5480);
+    border: none;
+    color: blanchedalmond;
+    width: 16rem;
+
+}
+
+#versus {
+    font-size: 4rem;
+    margin-top: 15rem;
+    background: linear-gradient(#59070E, #FF5480);
+    color: blanchedalmond;
+    width: 50%;
+    margin-left: 25%;
+    height: 5rem;
+    text-align: center;
+}
+
+#winOrLoss, #result {
+    font-size: 4rem;
+    margin-top: 15rem;
+    background: linear-gradient(#59070E, #FF5480);
+    color: blanchedalmond;
+    width: 30%;
+    margin-left: 35%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#result {
+    height: 5rem;
+}
